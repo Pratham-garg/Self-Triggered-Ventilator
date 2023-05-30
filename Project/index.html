@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Self triggered Ventilator</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Self Triggered Ventilator</h1>
+    <form id="new">
+      <label for="ptype">Patient Type:</label>
+      <select  id="ptype">
+        <option value="Select" >Select</option>
+        <option value="Adult"  >Adult</option>
+        <option value="Pediatric" >Pediatric</option>
+        <option value="Neonate" >Neonate</option>
+      </select><br><br>
+        <label for="rfailure">Respiratory Failure:</label>
+        <select name="rfailure" id="rfailure">
+          <option value="Select" id="rfailure">Select</option>
+          <option value="Hypoxemic" id="rfailure">Hypoxemic</option>
+          <option value="Hypercapnic" id="rfailure">Hypercapnic</option>
+          <option value="Perioperative" id="rfailure">Perioperative</option>
+            <option value="Shock" id="rfailure">Shock</option>
+          </select><br><br>
+          <label for="Oxygen">Oxygen value:</label>
+          <input type="text" id="Oxygen"><br><br>
+          <label for="CO2">Carbon di oxide value:</label>
+          <input type="text" id="CO2"><br><br>
+          <label for="Diaphragm">Diaphragm reading:</label>
+          <input type="text" id="Diaphragm"><br><br>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+        <p id="show"></p>
+        <script src="init.js"></script>
+</body>
+</html>

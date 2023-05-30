@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/e9/c2/96/e9c296fc18499a211e82fa48f4b76439.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    margin-left: 250px;
+    border-style: ridge;
+    width: 400px;
+    height: 235px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    
+}
+h1{
+    color: rgb(56, 74, 90);
+    margin-left: 285px;
+    height: 20px;
+}
+#submit{
+    height: 35px;
+    width: 400px;
+    border-radius: 10px;
+    padding-top: -40px;
+    position: fixed;
+    font-size: 20px;
+    background-color: #0a0121 ;
+    border: 10px cornflowerblue;
+    color:white;
+   box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
+  transition: all 200ms ease-in-out;
+}
+.submit:hover{
+    box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+    border-radius: 10%;
+}
+#show{
+    margin-left: 250px;
+}
